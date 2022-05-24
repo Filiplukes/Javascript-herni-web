@@ -1,0 +1,151 @@
+body {
+    background: rgba(0, 0, 255, 0.1)
+   
+}
+
+nav.menu {
+    display: block;
+    width: 100%;
+    background: blue;
+}
+
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu ul li {
+    width: 100%;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2em;
+    padding: 0 5px;
+
+}
+
+
+nav.menu a:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.header {
+    box-sizing: border-box;
+    font-size: xx-large;
+    width: 100%;
+    background: rgba(0, 0, 255, 0.6);
+    text-align: center;
+    float: none;
+    padding: 20px 0 20px 0;
+
+}
+
+.text {
+    box-sizing: border-box;
+    width: 100%;
+    background: rgba(0, 0, 255, 0.3);
+   
+
+}
+
+.pata {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 255, 0.6);
+    padding: auto;
+    float: left;
+}
+
+
+
+.login{
+    width: 100%;
+    display: flex;
+     margin-bottom: 1em;
+}
+.login .form{
+    align-items: center;
+    text-align: center;
+     width: 100%;  
+    
+}
+
+
+.login .form .pozadi{
+    background: rgba(0, 150, 255, 0.6);
+     margin: auto;
+     width: 100%;  
+    
+}
+
+.login .form .input_field{
+    
+     
+
+    padding-top: 1em;   
+    margin-bottom: 1em;
+}
+
+.login .form .button{
+    width: 6em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+
+.bodyWeb{
+    width: 100%;
+}
+
+.score{
+    float: left;
+    width:100%;
+}
+.score .tableScore{
+    border-style: solid;
+    margin-bottom: 1em;
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+
+
+.logout{
+    float:right;
+    
+    
+    
+}
+
+
+@media screen and (min-width: 780px) {
+    nav.menu {
+        width: 19%;
+        float: right;
+    }
+
+    .text {
+        width: 79%;
+        float: left;
+        margin-bottom: 1em;
+    }
+
+            
+    .login .form .pozadi{
+   
+        width: 30%;  
+    }
+    
+    .score .tableScore{
+        width: 30%;
+    }
+}
+
